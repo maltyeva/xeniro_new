@@ -6,15 +6,22 @@
 
 
 
-h1 {
+h1, h2, h3, h4 {
   font-family: 'Opti', Helvetica, sans-serif;
+  color: #212121;
 }
 
 
-body {
+body, p {
   font-family: 'Lekton', "Times New Roman", serif !Important;
+    color: #212121;
+
+
 }
 
+p.banner {
+  color: white;
+}
 
 
 .clear:before, .clear:after {
@@ -304,7 +311,7 @@ h1 {
     background-image: url(../images/Unleashing_1.jpg);
     background-size: cover; }
   #slide01 .bcg {
-    background: url(../img/img_mountains02.jpg) no-repeat center center;
+    background: url(../images/mp.jpg) no-repeat center center;
     background-size: cover; }
   #slide02 .bcg {
     background: url(../img/img_mountains03.jpg) no-repeat center center;
@@ -330,7 +337,7 @@ nav {
     line-height: 25px;
     position: relative;
     padding-right: 20px;
-    color: #ffffff;
+    color: #000;
     text-decoration: none; }
     nav a:hover .nav-label {
       -webkit-transform: translateX(0);
@@ -405,6 +412,11 @@ p {
 .fs {
   height: 100vh; }
 
+
+.inner-wrap {
+  display: flex;
+  flex-direction: column;
+}
 .slide {
   color: #ffffff;
   position: relative; }
@@ -447,7 +459,7 @@ p {
 
 /* =Content Block */
 .content-block {
-  background-color: #212121;
+  background-color: background-color;
   color: rgba(255, 255, 255, 0.9); }
   .content-block .wrapper {
     padding: 30px 0;
@@ -531,7 +543,7 @@ p {
     overflow: hidden;
     overflow-x: hidden; }
     .slide section {
-      max-width: 400px; }
+      max-width: 550px; }
     .slide .wrapper {
       padding-top: 120px;
       position: absolute;
@@ -582,6 +594,8 @@ p {
     display: block; }
   .content-block .wrapper {
     padding: 120px 0; } }
+
+
 
 /* ==========================================================================
    Helper classes
@@ -684,3 +698,17 @@ p {
     widows: 3; }
   h2, h3 {
     page-break-after: avoid; } }
+
+
+    /* Section */
+
+    section.about2 {
+      width: 50%;
+      text-align: left;
+    }
+
+
+
+article.cb01 {
+  color: #2121211c
+}

@@ -12,6 +12,8 @@
 	// get all break up sections
 	var breakSections = ["#cb01", "#cb02", "#cb03"];
 
+	var navs = ["nav1", "nav2", "nav3", "nav4"];
+
 	// number of loaded images for preloader progress 
 	var loadedCount = 0; //current number of images loaded
 	var imagesToLoad = $('.bcg').length; //number of slides with .bcg container
@@ -190,7 +192,7 @@
 	    pinScene02Tl
 	    	.to($('#slide02 h1'), 0.2, {autoAlpha: 0, ease:Power1.easeNone}, 1.5)
 	    	.to($('#slide02 section'), 0.2, {autoAlpha: 0, ease:Power1.easeNone}, 1.5)
-	    	.set($('#slide02 h1'), {text: "The Memories"})
+	    	.set($('#slide02 h1'), {text: "Powering  the  XENIRO  Ecosystem"})
 	    	.set($('#slide02 p'), {text: "You never climb the same mountain twice, not even in memory. Memory rebuilds the mountain, changes the weather, retells the jokes, remakes all the moves."})
 	    	.to($('#slide02 .bcg'), 0.6, {scale: 1.2, transformOrigin: '0% 0%', ease:Power0.easeNone})
 	    	.fromTo($('#slide02 h1'), 0.7, {y: '+=20'}, {y: 0, autoAlpha: 1, ease:Power1.easeOut}, '+=0.4')
@@ -230,3 +232,4 @@
 	}
 
 }(jQuery));
+
