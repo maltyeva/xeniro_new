@@ -273,7 +273,7 @@ h1 {
 /* =Header */
 .header-container {
   text-align: center;
-  color: #ffffff; }
+  color: #000; }
   .header-container .wrapper {
     padding-top: 120px;
     z-index: 2;
@@ -345,24 +345,30 @@ nav {
     position: absolute;
     right: 0;
     top: 50%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #FF0000;
     border-radius: 100%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     -webkit-transition: all 0.3s linear;
             transition: all 0.3s linear; }
+  .nav-active{
+    width: 15px;
+    height: 15px;
+    }
   nav .nav-label {
     display: block;
     opacity: 0.5;
-    visibility: hidden;
-    -webkit-transform: translateX(-10px);
+/*    visibility: hidden;
+*/    -webkit-transform: translateX(-10px);
         -ms-transform: translateX(-10px);
             transform: translateX(-10px);
     -webkit-transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
             transition: all 0.2s cubic-bezier(.17, .67, .83, .67); }
   nav.is-dark a {
-    color: #212121; }
+    color: #ff0000; }
+  nav.is-dark a:hover {
+    color: #000000; }
   nav.is-dark .nav-dot {
     background-color: rgba(0, 0, 0, 0.5); }
   nav.is-light a {
