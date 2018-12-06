@@ -416,6 +416,16 @@ p {
 .inner-wrap {
   display: flex;
   flex-direction: column;
+  padding: 0px 12%;
+
+  p {
+  text-align: justify;
+
+  }
+}
+
+header.wrap-1 {
+  top: 70% !important;
 }
 .slide {
   color: #ffffff;

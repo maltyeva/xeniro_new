@@ -110,7 +110,7 @@
 		    })
 		    .setClassToggle('#'+breakID, 'is-active') // set class to active slide
 		    .on("enter", function (event) {
-			    $('nav').attr('class','is-light');
+			    // $('nav').attr('class','is-light');
 			})
 		    .addTo(controller);
 		});
