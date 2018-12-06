@@ -233,3 +233,14 @@
 
 }(jQuery));
 
+
+const nav = document.querySelector('nav');
+console.log(nav)
+
+window.addEventListener('scroll', () => {
+      if (window.scrollY >= window.innerHeight) {
+        nav.classList.add('show-nav');
+      } else {
+        nav.classList.remove('show-nav');
+      }
+    });

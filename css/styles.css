@@ -488,13 +488,13 @@ header.wrap-1 {
   text-align: center;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
-  background-color: #06060d; }
-  .footer-container h3 {
+  background-color: #ffffff; }
+  .footer-container p {
     margin: 0;
-    padding: 20px 0;
+    padding: 20px 20px;
     font-weight: normal; }
   .footer-container a {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(255, 255, 255, 0.8); }
 .h3.
 
 /* =Simple animation up */
@@ -602,11 +602,14 @@ header.wrap-1 {
     .slide#slide03 .bcg {
       opacity: 1; }
   nav {
-    display: block; }
+    display: none; }
   .content-block .wrapper {
     padding: 120px 0; } }
 
-
+    nav.show-nav {
+      display: block;
+      transition: ease-in .3s;
+    }
 
 /* ==========================================================================
    Helper classes
